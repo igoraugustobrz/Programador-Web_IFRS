@@ -1,0 +1,16 @@
+#titulo1 {
+    font-family: Verdana;
+    color: green;
+    text-decoration: underline;
+}
+
+#texto {
+    font-style: italic;
+    font-family: "Comic Sans"; 
+    color:blueviolet;
+}
+
+#titulo2 {
+    font-family: Arial;
+    color: black;
+}
