@@ -8,3 +8,5 @@ while(inicio <= fim){
 }
 
 alert("Esses são todos os números pares de 0 até 10: " + todosPares);
+
+function
