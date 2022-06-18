@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/input.js"></script>
+        <title>Eventos de Input</title>
+    </head>
+    <body>
+        <h1>Eventos de Input</h1>
+        <form name="formTeste" onSubmit="return submeti()" onreset="resetei()">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" onblur="saiDoCampo()" onchange="mudei()" onfocus="entreiNoCampo()" onselect="selecionei()" onkeydown="teclaBaixo()" onkeyup="teclaCima()"><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+        <h2>Log de ocorrências</h2>
+        <div id="log"></div>
+    </body>
+</html>
