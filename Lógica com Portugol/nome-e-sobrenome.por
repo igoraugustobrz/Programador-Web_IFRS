@@ -5,7 +5,7 @@ programa
 	{
 		cadeia nome, sobrenome
 
-		escreva("Olá somos da Claro, viemos cobrar o seu plano de interne, informe os seus dados: " + "\n")
+		escreva("Olá somos da Claro, viemos cobrar o seu plano de internet, informe os seus dados: " + "\n")
 		
 		escreva("Nome: ")
 		leia(nome)
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 131; 
+ * @POSICAO-CURSOR = 127; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
